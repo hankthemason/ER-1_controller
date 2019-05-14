@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 204.0, 1212.0, 629.0 ],
+		"rect" : [ 50.0, 82.0, 1212.0, 629.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,40 +38,6 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-127",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 121.0, 446.0, 34.0, 22.0 ],
-					"text" : "write"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-123",
-					"maxclass" : "preset",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 62.285713195800781, 481.0, 100.0, 40.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 183.0, 329.0, 100.0, 40.0 ],
-					"preset_data" : [ 						{
-							"number" : 1,
-							"data" : [ 5, "obj-114", "live.dial", "float", 14.0, 5, "obj-125", "live.dial", "float", 85.0, 5, "obj-171", "live.dial", "float", 102.0, 5, "obj-220", "live.tab", "float", 0.0, 5, "obj-235", "live.tab", "float", 5.0, 5, "obj-236", "live.dial", "float", 71.0, 5, "obj-237", "live.dial", "float", 127.0, 5, "obj-238", "live.dial", "float", 64.0, 5, "obj-239", "live.dial", "float", 96.0, 5, "obj-202", "live.dial", "float", 44.0, 5, "obj-198", "live.dial", "float", 43.0, 5, "obj-197", "live.dial", "float", 89.0, 5, "obj-188", "live.tab", "float", 0.0, 5, "obj-173", "live.tab", "float", 5.0, 5, "obj-172", "live.dial", "float", 32.0, 5, "obj-124", "live.dial", "float", 108.0, 5, "obj-118", "live.dial", "float", 64.0, 5, "obj-117", "live.dial", "float", 0.0, 5, "obj-218", "live.dial", "float", 21.0, 5, "obj-213", "live.dial", "float", 123.0, 5, "obj-212", "live.dial", "float", 86.0, 5, "obj-211", "live.tab", "float", 1.0, 5, "obj-208", "live.tab", "float", 3.0, 5, "obj-207", "live.dial", "float", 18.0, 5, "obj-206", "live.dial", "float", 127.0, 5, "obj-205", "live.dial", "float", 64.0, 5, "obj-204", "live.dial", "float", 0.0, 5, "obj-252", "live.dial", "float", 26.0, 5, "obj-251", "live.dial", "float", 120.0, 5, "obj-250", "live.dial", "float", 107.0, 5, "obj-249", "live.tab", "float", 1.0, 5, "obj-246", "live.tab", "float", 5.0, 5, "obj-244", "live.dial", "float", 19.0, 5, "obj-223", "live.dial", "float", 109.0, 5, "obj-222", "live.dial", "float", 64.0, 5, "obj-221", "live.dial", "float", 55.0, 5, "obj-267", "live.dial", "float", 43.0, 5, "obj-268", "live.dial", "float", 6.0, 5, "obj-269", "live.dial", "float", 75.0, 5, "obj-270", "live.dial", "float", 64.0, 5, "obj-271", "live.dial", "float", 0.0, 5, "obj-276", "live.dial", "float", 110.0, 5, "obj-275", "live.dial", "float", 2.0, 5, "obj-274", "live.dial", "float", 92.0, 5, "obj-273", "live.dial", "float", 64.0, 5, "obj-272", "live.dial", "float", 0.0, 5, "obj-282", "live.dial", "float", 85.0, 5, "obj-281", "live.dial", "float", 0.0, 5, "obj-280", "live.dial", "float", 100.0, 5, "obj-279", "live.dial", "float", 64.0, 5, "obj-278", "live.dial", "float", 0.0, 5, "obj-288", "live.dial", "float", 45.0, 5, "obj-287", "live.dial", "float", 0.0, 5, "obj-286", "live.dial", "float", 127.0, 5, "obj-285", "live.dial", "float", 64.0, 5, "obj-284", "live.dial", "float", 0.0, 5, "obj-3", "live.text", "float", 0.0, 5, "obj-5", "live.text", "float", 0.0, 5, "obj-6", "live.text", "float", 0.0, 5, "obj-7", "live.text", "float", 0.0, 5, "obj-9", "live.text", "float", 0.0, 5, "obj-10", "live.text", "float", 0.0, 5, "obj-12", "live.text", "float", 0.0, 5, "obj-13", "live.text", "float", 0.0, 5, "obj-14", "live.text", "float", 0.0, 5, "obj-26", "live.text", "float", 0.0, 5, "obj-27", "live.text", "float", 0.0, 5, "obj-28", "live.text", "float", 0.0, 5, "obj-35", "live.text", "float", 0.0, 5, "obj-36", "live.text", "float", 0.0, 5, "obj-37", "live.text", "float", 0.0, 5, "obj-38", "live.text", "float", 0.0 ]
-						}
-, 						{
-							"number" : 2,
-							"data" : [ 5, "obj-114", "live.dial", "float", 14.0, 5, "obj-125", "live.dial", "float", 85.0, 5, "obj-171", "live.dial", "float", 102.0, 5, "obj-220", "live.tab", "float", 0.0, 5, "obj-235", "live.tab", "float", 5.0, 5, "obj-236", "live.dial", "float", 71.0, 5, "obj-237", "live.dial", "float", 127.0, 5, "obj-238", "live.dial", "float", 64.0, 5, "obj-239", "live.dial", "float", 96.0, 5, "obj-202", "live.dial", "float", 44.0, 5, "obj-198", "live.dial", "float", 43.0, 5, "obj-197", "live.dial", "float", 89.0, 5, "obj-188", "live.tab", "float", 0.0, 5, "obj-173", "live.tab", "float", 5.0, 5, "obj-172", "live.dial", "float", 32.0, 5, "obj-124", "live.dial", "float", 108.0, 5, "obj-118", "live.dial", "float", 64.0, 5, "obj-117", "live.dial", "float", 0.0, 5, "obj-218", "live.dial", "float", 21.0, 5, "obj-213", "live.dial", "float", 123.0, 5, "obj-212", "live.dial", "float", 86.0, 5, "obj-211", "live.tab", "float", 1.0, 5, "obj-208", "live.tab", "float", 3.0, 5, "obj-207", "live.dial", "float", 18.0, 5, "obj-206", "live.dial", "float", 127.0, 5, "obj-205", "live.dial", "float", 64.0, 5, "obj-204", "live.dial", "float", 0.0, 5, "obj-252", "live.dial", "float", 26.0, 5, "obj-251", "live.dial", "float", 120.0, 5, "obj-250", "live.dial", "float", 107.0, 5, "obj-249", "live.tab", "float", 1.0, 5, "obj-246", "live.tab", "float", 5.0, 5, "obj-244", "live.dial", "float", 19.0, 5, "obj-223", "live.dial", "float", 109.0, 5, "obj-222", "live.dial", "float", 64.0, 5, "obj-221", "live.dial", "float", 55.0, 5, "obj-267", "live.dial", "float", 43.0, 5, "obj-268", "live.dial", "float", 6.0, 5, "obj-269", "live.dial", "float", 75.0, 5, "obj-270", "live.dial", "float", 64.0, 5, "obj-271", "live.dial", "float", 0.0, 5, "obj-276", "live.dial", "float", 110.0, 5, "obj-275", "live.dial", "float", 2.0, 5, "obj-274", "live.dial", "float", 92.0, 5, "obj-273", "live.dial", "float", 64.0, 5, "obj-272", "live.dial", "float", 0.0, 5, "obj-282", "live.dial", "float", 85.0, 5, "obj-281", "live.dial", "float", 0.0, 5, "obj-280", "live.dial", "float", 100.0, 5, "obj-279", "live.dial", "float", 64.0, 5, "obj-278", "live.dial", "float", 0.0, 5, "obj-288", "live.dial", "float", 45.0, 5, "obj-287", "live.dial", "float", 0.0, 5, "obj-286", "live.dial", "float", 127.0, 5, "obj-285", "live.dial", "float", 64.0, 5, "obj-284", "live.dial", "float", 0.0, 5, "obj-3", "live.text", "float", 0.0, 5, "obj-5", "live.text", "float", 0.0, 5, "obj-6", "live.text", "float", 0.0, 5, "obj-7", "live.text", "float", 0.0, 5, "obj-9", "live.text", "float", 0.0, 5, "obj-10", "live.text", "float", 0.0, 5, "obj-12", "live.text", "float", 0.0, 5, "obj-13", "live.text", "float", 0.0, 5, "obj-14", "live.text", "float", 0.0, 5, "obj-26", "live.text", "float", 0.0, 5, "obj-27", "live.text", "float", 0.0, 5, "obj-28", "live.text", "float", 0.0, 5, "obj-35", "live.text", "float", 0.0, 5, "obj-36", "live.text", "float", 0.0, 5, "obj-37", "live.text", "float", 0.0, 5, "obj-38", "live.text", "float", 0.0 ]
-						}
- ]
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"annotation" : "",
 					"comment" : "clap_solo",
@@ -2660,13 +2626,13 @@
 					"presentation_rect" : [ 180.834503173828125, 125.000007629394531, 44.0, 45.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_linknames" : 1,
 							"parameter_longname" : "CHH Pan",
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 64 ],
 							"parameter_shortname" : "Pan",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
-							"parameter_linknames" : 1
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -3575,11 +3541,11 @@
 					"presentation_rect" : [ 343.314239501953125, 20.0, 55.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_linknames" : 1,
 							"parameter_longname" : "S2 Mod Speed",
 							"parameter_shortname" : "Mod Speed",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
-							"parameter_linknames" : 1
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -4932,13 +4898,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-123", 0 ],
-					"source" : [ "obj-127", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-13", 0 ]
 				}
@@ -5906,86 +5865,86 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-218" : [ "S3 Pitch", "Pitch", 0 ],
-			"obj-220" : [ "S1 Wave Type", "live.tab", 0 ],
+			"obj-47" : [ "live.button[4]", "live.button", 0 ],
+			"obj-285" : [ "Clap Pan", "Pan", 0 ],
+			"obj-208" : [ "S3 Mod Type", "live.tab", 0 ],
+			"obj-238" : [ "S1 Pan", "Pan", 0 ],
+			"obj-282" : [ "Crash Pitch", "Pitch", 0 ],
+			"obj-246" : [ "S4 Mod Type", "live.tab", 0 ],
+			"obj-172" : [ "S2 Decay", "Decay", 0 ],
+			"obj-36" : [ "OHH Solo", "live.text", 0 ],
+			"obj-270" : [ "CHH Pan", "Pan", 0 ],
+			"obj-6" : [ "S2 Mute", "live.text", 0 ],
+			"obj-43" : [ "live.button", "live.button", 0 ],
+			"obj-205" : [ "S3 Pan", "Pan", 0 ],
+			"obj-50" : [ "live.button[7]", "live.button", 0 ],
+			"obj-198" : [ "S2 Mod Depth", "Mod Depth", 0 ],
+			"obj-117" : [ "S2 Low Boost", "Low Boost", 0 ],
+			"obj-171" : [ "S1 Mod Speed", "Mod Speed", 0 ],
+			"obj-222" : [ "S4 Pan", "Pan", 0 ],
+			"obj-279" : [ "Crash Pan", "Pan", 0 ],
+			"obj-28" : [ "S4 Solo", "live.text", 0 ],
 			"obj-276" : [ "OHH Pitch", "Pitch", 0 ],
-			"obj-206" : [ "S3 Level", "Level", 0 ],
+			"obj-251" : [ "S4 Mod Depth", "Mod Depth", 0 ],
+			"obj-287" : [ "Clap Decay", "Decay", 0 ],
+			"obj-45" : [ "live.button[2]", "live.button", 0 ],
+			"obj-236" : [ "S1 Decay", "Decay", 0 ],
+			"obj-212" : [ "S3 Mod Speed", "Mod Speed", 0 ],
+			"obj-268" : [ "CHH Decay", "Decay", 0 ],
+			"obj-188" : [ "S2 Wave Type", "live.tab", 0 ],
+			"obj-273" : [ "OHH Pan", "Pan", 0 ],
+			"obj-197" : [ "S2 Mod Speed", "Mod Speed", 0 ],
+			"obj-12" : [ "Crash Mute", "live.text", 0 ],
+			"obj-239" : [ "S1 Low Boost", "Low Boost", 0 ],
+			"obj-284" : [ "Clap Low Boost", "Low Boost", 0 ],
 			"obj-48" : [ "live.button[5]", "live.button", 0 ],
+			"obj-207" : [ "S3 Decay", "Decay", 0 ],
+			"obj-114" : [ "S1 Pitch", "Pitch", 0 ],
+			"obj-244" : [ "S4 Decay", "Decay", 0 ],
+			"obj-124" : [ "S2 Level", "Level", 0 ],
+			"obj-281" : [ "Crash Decay", "Decay", 0 ],
+			"obj-37" : [ "Crash Solo", "live.text", 0 ],
+			"obj-26" : [ "S2 Solo", "live.text", 0 ],
+			"obj-7" : [ "S1 Mute", "live.text", 0 ],
+			"obj-14" : [ "S1 Solo", "live.text", 0 ],
+			"obj-204" : [ "S3 Low Boost", "Low Boost", 0 ],
+			"obj-218" : [ "S3 Pitch", "Pitch", 0 ],
+			"obj-221" : [ "S4 Low Boost", "Low Boost", 0 ],
+			"obj-220" : [ "S1 Wave Type", "live.tab", 0 ],
+			"obj-278" : [ "Crash Low Boost", "Low Boost", 0 ],
+			"obj-275" : [ "OHH Decay", "Decay", 0 ],
+			"obj-9" : [ "CHH Mute", "live.text", 0 ],
+			"obj-250" : [ "S4 Mod Speed", "Mod Speed", 0 ],
+			"obj-46" : [ "live.button[3]", "live.button", 0 ],
+			"obj-286" : [ "Clap Level", "Level", 0 ],
+			"obj-269" : [ "CHH Level", "Level", 0 ],
+			"obj-211" : [ "S3 Wave Type", "live.tab", 0 ],
+			"obj-237" : [ "S1 Level", "Level", 0 ],
+			"obj-173" : [ "S2 Mod Type", "live.tab", 0 ],
+			"obj-272" : [ "OHH Low Boost", "Low Boost", 0 ],
+			"obj-35" : [ "CHH Solo", "live.text", 0 ],
+			"obj-5" : [ "S3 Mute", "live.text", 0 ],
+			"obj-13" : [ "Clap Mute", "live.text", 0 ],
+			"obj-206" : [ "S3 Level", "Level", 0 ],
+			"obj-202" : [ "S2 Pitch", "Pitch", 0 ],
+			"obj-49" : [ "live.button[6]", "live.button", 0 ],
 			"obj-3" : [ "S4 Mute", "live.text", 0 ],
 			"obj-280" : [ "Crash Level", "Level", 0 ],
-			"obj-249" : [ "S4 Wave Type", "live.tab", 0 ],
-			"obj-38" : [ "Clap Solo", "live.text", 0 ],
-			"obj-202" : [ "S2 Pitch", "Pitch", 0 ],
-			"obj-246" : [ "S4 Mod Type", "live.tab", 0 ],
-			"obj-124" : [ "S2 Level", "Level", 0 ],
-			"obj-284" : [ "Clap Low Boost", "Low Boost", 0 ],
-			"obj-268" : [ "CHH Decay", "Decay", 0 ],
 			"obj-125" : [ "S1 Mod Depth", "Mod Depth", 0 ],
-			"obj-5" : [ "S3 Mute", "live.text", 0 ],
-			"obj-10" : [ "OHH Mute", "live.text", 0 ],
-			"obj-211" : [ "S3 Wave Type", "live.tab", 0 ],
-			"obj-235" : [ "S1 Mod Type", "live.tab", 0 ],
-			"obj-273" : [ "OHH Pan", "Pan", 0 ],
-			"obj-204" : [ "S3 Low Boost", "Low Boost", 0 ],
-			"obj-282" : [ "Crash Pitch", "Pitch", 0 ],
-			"obj-251" : [ "S4 Mod Depth", "Mod Depth", 0 ],
-			"obj-46" : [ "live.button[3]", "live.button", 0 ],
-			"obj-6" : [ "S2 Mute", "live.text", 0 ],
-			"obj-222" : [ "S4 Pan", "Pan", 0 ],
-			"obj-286" : [ "Clap Level", "Level", 0 ],
-			"obj-188" : [ "S2 Wave Type", "live.tab", 0 ],
-			"obj-35" : [ "CHH Solo", "live.text", 0 ],
-			"obj-173" : [ "S2 Mod Type", "live.tab", 0 ],
-			"obj-271" : [ "CHH Low Boost", "Low Boost", 0 ],
-			"obj-171" : [ "S1 Mod Speed", "Mod Speed", 0 ],
-			"obj-49" : [ "live.button[6]", "live.button", 0 ],
-			"obj-213" : [ "S3 Mod Depth", "Mod Depth", 0 ],
-			"obj-275" : [ "OHH Decay", "Decay", 0 ],
-			"obj-236" : [ "S1 Decay", "Decay", 0 ],
-			"obj-208" : [ "S3 Mod Type", "live.tab", 0 ],
-			"obj-239" : [ "S1 Low Boost", "Low Boost", 0 ],
-			"obj-12" : [ "Crash Mute", "live.text", 0 ],
-			"obj-28" : [ "S4 Solo", "live.text", 0 ],
-			"obj-14" : [ "S1 Solo", "live.text", 0 ],
-			"obj-279" : [ "Crash Pan", "Pan", 0 ],
-			"obj-244" : [ "S4 Decay", "Decay", 0 ],
-			"obj-288" : [ "Clap Pitch", "Pitch", 0 ],
-			"obj-198" : [ "S2 Mod Depth", "Mod Depth", 0 ],
-			"obj-44" : [ "live.button[1]", "live.button", 0 ],
 			"obj-118" : [ "S2 Pan", "Pan", 0 ],
-			"obj-269" : [ "CHH Level", "Level", 0 ],
-			"obj-27" : [ "S3 Solo", "live.text", 0 ],
-			"obj-36" : [ "OHH Solo", "live.text", 0 ],
-			"obj-207" : [ "S3 Decay", "Decay", 0 ],
-			"obj-238" : [ "S1 Pan", "Pan", 0 ],
-			"obj-272" : [ "OHH Low Boost", "Low Boost", 0 ],
-			"obj-47" : [ "live.button[4]", "live.button", 0 ],
-			"obj-7" : [ "S1 Mute", "live.text", 0 ],
-			"obj-281" : [ "Crash Decay", "Decay", 0 ],
-			"obj-250" : [ "S4 Mod Speed", "Mod Speed", 0 ],
-			"obj-13" : [ "Clap Mute", "live.text", 0 ],
-			"obj-26" : [ "S2 Solo", "live.text", 0 ],
-			"obj-221" : [ "S4 Low Boost", "Low Boost", 0 ],
-			"obj-172" : [ "S2 Decay", "Decay", 0 ],
-			"obj-285" : [ "Clap Pan", "Pan", 0 ],
-			"obj-267" : [ "CHH Pitch", "Pitch", 0 ],
-			"obj-50" : [ "live.button[7]", "live.button", 0 ],
-			"obj-212" : [ "S3 Mod Speed", "Mod Speed", 0 ],
-			"obj-274" : [ "OHH Level", "Level", 0 ],
-			"obj-237" : [ "S1 Level", "Level", 0 ],
-			"obj-205" : [ "S3 Pan", "Pan", 0 ],
-			"obj-37" : [ "Crash Solo", "live.text", 0 ],
-			"obj-252" : [ "S4 Pitch", "Pitch", 0 ],
-			"obj-278" : [ "Crash Low Boost", "Low Boost", 0 ],
 			"obj-223" : [ "S4 Level", "Level", 0 ],
-			"obj-45" : [ "live.button[2]", "live.button", 0 ],
-			"obj-197" : [ "S2 Mod Speed", "Mod Speed", 0 ],
-			"obj-287" : [ "Clap Decay", "Decay", 0 ],
-			"obj-43" : [ "live.button", "live.button", 0 ],
-			"obj-9" : [ "CHH Mute", "live.text", 0 ],
-			"obj-114" : [ "S1 Pitch", "Pitch", 0 ],
-			"obj-117" : [ "S2 Low Boost", "Low Boost", 0 ],
-			"obj-270" : [ "CHH Pan", "Pan", 0 ],
+			"obj-27" : [ "S3 Solo", "live.text", 0 ],
+			"obj-38" : [ "Clap Solo", "live.text", 0 ],
+			"obj-271" : [ "CHH Low Boost", "Low Boost", 0 ],
+			"obj-252" : [ "S4 Pitch", "Pitch", 0 ],
+			"obj-213" : [ "S3 Mod Depth", "Mod Depth", 0 ],
+			"obj-44" : [ "live.button[1]", "live.button", 0 ],
+			"obj-267" : [ "CHH Pitch", "Pitch", 0 ],
+			"obj-235" : [ "S1 Mod Type", "live.tab", 0 ],
+			"obj-288" : [ "Clap Pitch", "Pitch", 0 ],
+			"obj-274" : [ "OHH Level", "Level", 0 ],
+			"obj-249" : [ "S4 Wave Type", "live.tab", 0 ],
+			"obj-10" : [ "OHH Mute", "live.text", 0 ],
 			"parameterbanks" : 			{
 
 			}
